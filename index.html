@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Новое начало | Реабилитационный центр</title>
+    <link rel="preload" href="fonts/GothamPro.woff2" as="font">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/min.normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body class="page__body">
+    <header class="page-header wow animate__animated animate__fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
+      <nav class="navbar-expand-lg page-header_nav site-menu container">
+        <a href="index.html">
+          <picture>
+            <source type="image/webp" srcset="img/logo.webp">
+            <img class="page-header_img" src="img/logo.png" alt="logo">
+          </picture>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse main-nav navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="site-menu_list navbar-nav">
+            <li class="site-menu_item">
+              <a class="site-menu_link">Главная</a>
+            </li>
+            <li class="site-menu_item">
+              <a class="site-menu_link" href="#about-us">О нас</a>
+            </li>
+            <li class="site-menu_item">
+              <a class="site-menu_link" href="#">Услуги</a>
+            </li>
+            <li class="site-menu_item">
+              <a class="site-menu_link" href="#footer">Контакты</a>
+            </li>
+          </ul>
+          <ul class="phones">
+            <li class="phones_item">
+              <a href="tel:+380931429497" class="phones_link">+38 093 142 94 97</a>
+            </li>
+            <li class="phones_item">
+              <a href="tel:+380967047930" class="phones_link">+38 096 704 79 30</a>
+            </li>
+            <li class="phones_item">
+              <a href="#" class="phones_link phones_link-btn" data-toggle="modal" data-target="#exampleModal">Заказать звонок</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main content">
+      <section class="main-screen">
+        <div class="container">
+          <div class="row main-screen--wrapper">
+            <div class="col-xl-7 col-lg-7 col-12">
+              <h1 class="main-screen__title">Реабилитационный центр в Николаеве</h1>
+              <p class="main-screen__subtitle">Предоставляем профессиональную помощь в лечении зависимостей!</p>
+              <a href="#form" class="main-screen__btn">Получить бесплатную консультацию</a>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-12">
+              <img src="img/man.png" alt="автор">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us container" id="about-us">
+        <h2 class="visually-hidden">О нас</h2>
+        <p class="about-us__text"><span>Реабилитационный центр Новое Начало</span> - это место, где можно рассчитывать на максимально быстрое восстановление после зависимости и возвращение к адекватной трезвой жизни. Данный центр считается уникальным в своем роде, в центре работают квалифицированные специалисты, которым хорошо известны основы терапевтического процесса. Персонал использует непревзайденую методику и всегда уделяет внимание духовному возраждению пациентов.</p>
+        <p class="about-us__text">Все пациенты проживают в уютных комнатах имеющую домашнюю атмосферу. Люди которые проходят курс реабилитации, говорят о том, что теперь им намного лучше и они больше никогда не притронутся к алкогольным напиткам или дурманящим веществам. А это значит, что пациенты выписались из центра абсолютно здоровыми.</p>
+        <p class="about-us__text">В реабилитационном центре Новое Начало зависимым и созависимым родственникам гарантируется профессиональная поддержка и сопровождение после выписки. Персонал центра руководствуется программой реабилитации 12 шагов, которая повлекла и изменила сотни тысяч судеб. По завершению курса пациенты восстанавливаются и ведут полноценную жизнь.</p>
+      </section>
+      <section class="form wow animate__animated animate__zoomIn" id="form">
+        <div class="container">
+          <h2 class="form__title">Заполните заявку</h2>
+          <p class="form__subtitle">Получите <span>бесплатную</span> консультацию!</p>
+          <form method="post" class="form--wrapper">
+            <input class="form__input form__input--phone" type="text" id="number" placeholder="Номер телефона" required>
+            <input class="form__input form__input--btn" type="submit" value="Получить консультацию">
+          </form>
+          <p class="form__text">Мы свяжемся с вами в течении 30 минут.</p>
+        </div>
+      </section>
+      <section class="gallery container">
+        <h2 class="visually-hidden">Наша галерея</h2>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4">
+            <picture>
+              <source type="image/webp" srcset="img/photo1.webp">
+              <img class="gallery__img" src="img/photo1.png" alt="фото">
+            </picture>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4">
+            <picture>
+              <source type="image/webp" srcset="img/photo2.webp">
+              <img class="gallery__img" src="img/photo2.png" alt="фото">
+            </picture>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4">
+            <picture>
+              <source type="image/webp" srcset="img/photo3.webp">
+              <img class="gallery__img" src="img/photo3.png" alt="фото">
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer wow animate__animated animate__fadeInUp" id="footer">
+      <div class="footer col-xl-12 col-lg-12 container">
+        <a class="page-footer_logo-link" href="#">
+          <picture>
+            <source type="image/webp" srcset="img/logo-footer.webp">
+            <img class="" src="img/logo-footer.png" alt="logo">
+          </picture>
+        </a>
+        <div class="footer__email">
+          <p class="page-footer__text">Лечение в Николаеве</p>
+          <p class="page-footer__email">V.kravcov0907@gmail.com</p>
+        </div>
+        <ul class="footer-phones">
+          <li class="footer-phones_item">
+            <a href="tel:+380931429497" class="footer-phones_link">+38 093 142 94 97</a>
+          </li>
+          <li class="footer-phones_item">
+            <a href="tel:+380967047930" class="footer-phones_link">+38 096 704 79 30</a>
+          </li>
+          <li class="footer-phones_item">
+            <a href="#" class="phones_link phones_link-btn" data-toggle="modal" data-target="#exampleModal">Заказать звонок</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
+            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" class="form-modal">
+              <input class="modal__input--phone" type="text" id="number1" placeholder="Номер телефона" required><br>
+              <input class="modal__input--btn" type="submit" value="Заказать звонок">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#number").mask("+380 (99) 999-9999");
+        $("#number1").mask("+380 (99) 999-9999");
+      });
+    </script>
+  </body>
+</html>
